@@ -1,0 +1,16 @@
+PODS:
+  - SKOtp (1.0.0)
+
+DEPENDENCIES:
+  - SKOtp (from `SKOtp/.`)
+
+EXTERNAL SOURCES:
+  SKOtp:
+    :path: SKOtp/.
+
+SPEC CHECKSUMS:
+  SKOtp: af76493ab243a94ae6b47eed77075b0bb8211795
+
+PODFILE CHECKSUM: 10bc19b9eb6a9ebe3ac4bfab0ebf3dd6704278f7
+
+COCOAPODS: 1.16.2
