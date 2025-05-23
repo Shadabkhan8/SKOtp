@@ -26,7 +26,7 @@ SKOtp is a lightweight and highly customizable One-Time Password (OTP) input com
 
 ## License
 
-SKRangeSlider is released under the MIT License.
+SKOtp is released under the MIT License.
 
 See the LICENSE file for more details.
 
