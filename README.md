@@ -28,7 +28,7 @@ SKOtp is a lightweight and highly customizable One-Time Password (OTP) input com
 
 SKOtp is released under the MIT License.
 
-See the LICENSE file for more details.
+See the [LICENSE](https://github.com/Shadabkhan8/SKOtp/blob/main/SKOtp/LICENSE) file for more details.
 
 ## **Author**
 
