@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		5542B28A0F1196E1D7E3F0219E1A2B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
 		6D8DFEBABD29BC471F0B0B18288E61F9 /* SKOtp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F70B5179800FF51CD54D6B895967AC3 /* SKOtp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B4F37707A4249565BE9564E82918458 /* Pods-OTPView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9B8DDE886743F84B8258F52AE72333 /* Pods-OTPView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9870F1232DE85B8800510C36 /* BoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9870F1222DE85B8800510C36 /* BoxStyle.swift */; };
 		EDF9A339C705A0FA9657B06D5D1C7720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,17 +41,18 @@
 		7FBA93798AC5FE932E5C1138AAD9E5F5 /* Pods-OTPView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPView.debug.xcconfig"; sourceTree = "<group>"; };
 		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		83C011D87AE1AA1A7D61A3B20D2D1659 /* SKOtp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKOtp-Info.plist"; sourceTree = "<group>"; };
-		8760D6868D42F5BECFEA3CE9314E575C /* Pods-OTPView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OTPView"; path = Pods_OTPView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8760D6868D42F5BECFEA3CE9314E575C /* Pods_OTPView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTPView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9870F1222DE85B8800510C36 /* BoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxStyle.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2AB148A3051260201A21666D31EED50 /* Pods-OTPView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPView-Info.plist"; sourceTree = "<group>"; };
-		AABD4E2F8FE22C84A8B1467655642C3C /* SKOtp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKOtp; path = SKOtp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABD4E2F8FE22C84A8B1467655642C3C /* SKOtp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKOtp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9B8DDE886743F84B8258F52AE72333 /* Pods-OTPView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTPView-umbrella.h"; sourceTree = "<group>"; };
 		B0F681ADEF9286B402C121E8F471776E /* Pods-OTPView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTPView-dummy.m"; sourceTree = "<group>"; };
 		CEAE017D17098DB225BE1B079BA82E2B /* Pods-OTPView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTPView-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5CC09942259994916A5850CBF2502ED /* SKOtp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKOtp.release.xcconfig; sourceTree = "<group>"; };
 		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EDBEDC693B45A190E282DFE87E47551A /* SKOtpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SKOtpView.swift; sourceTree = "<group>"; };
-		F0D1E7BE13F04281F65293812ADB357A /* SKOtp.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = SKOtp.podspec.json; sourceTree = "<group>"; };
+		F0D1E7BE13F04281F65293812ADB357A /* SKOtp.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = SKOtp.podspec.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		8C93F197F6CEC40A1F6D09FE464077DB /* SKOtp */ = {
 			isa = PBXGroup;
 			children = (
+				9870F1222DE85B8800510C36 /* BoxStyle.swift */,
 				EDBEDC693B45A190E282DFE87E47551A /* SKOtpView.swift */,
 				E60C24FE926041842AD9E7812F4C744F /* Pod */,
 				775DCA573F84D62BB44227A214190B22 /* Support Files */,
@@ -153,8 +156,8 @@
 		C8C1A37E02EB31DDA7982519BA72622A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8760D6868D42F5BECFEA3CE9314E575C /* Pods-OTPView */,
-				AABD4E2F8FE22C84A8B1467655642C3C /* SKOtp */,
+				8760D6868D42F5BECFEA3CE9314E575C /* Pods_OTPView.framework */,
+				AABD4E2F8FE22C84A8B1467655642C3C /* SKOtp.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,7 +219,7 @@
 			);
 			name = "Pods-OTPView";
 			productName = Pods_OTPView;
-			productReference = 8760D6868D42F5BECFEA3CE9314E575C /* Pods-OTPView */;
+			productReference = 8760D6868D42F5BECFEA3CE9314E575C /* Pods_OTPView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B99108459683345D74740B183B3B7534 /* SKOtp */ = {
@@ -234,7 +237,7 @@
 			);
 			name = SKOtp;
 			productName = SKOtp;
-			productReference = AABD4E2F8FE22C84A8B1467655642C3C /* SKOtp */;
+			productReference = AABD4E2F8FE22C84A8B1467655642C3C /* SKOtp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -255,8 +258,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = C8C1A37E02EB31DDA7982519BA72622A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -290,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2662659191374C37CAE5C6562E4F9E92 /* SKOtp-dummy.m in Sources */,
+				9870F1232DE85B8800510C36 /* BoxStyle.swift in Sources */,
 				28FE3BE2F2B66795A89B8D492F4B38E5 /* SKOtpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

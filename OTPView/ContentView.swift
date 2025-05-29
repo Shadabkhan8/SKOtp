@@ -9,13 +9,22 @@ import SwiftUI
 import SKOtp
 
 struct ContentView: View {
-    
     @State private var otp: String = ""
     
     var body: some View {
-        SKOtpView(otp: $otp, onSubmit: {
-            print("OTP: \(otp)")
-        })
+        SKOtpView(
+            otp: $otp,
+            maxLength: 6,
+            isAlphanumeric: true,
+            boxStyle: .circle,
+            imageName: "lock.shield",
+            titleText: "Enter OTP",
+            subtitleText: "Please enter the 6-digit code sent to you",
+            onSubmit: {
+                print("OTP Submitted: \(otp)")
+            }
+        )
+        .preferredColorScheme(.light)
     }
 }
 
