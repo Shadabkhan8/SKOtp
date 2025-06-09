@@ -12,19 +12,26 @@ struct ContentView: View {
     @State private var otp: String = ""
     
     var body: some View {
-        SKOtpView(
+       SKOtpView(
             otp: $otp,
-            maxLength: 6,
+            maxLength: 8,
             isAlphanumeric: true,
-            boxStyle: .circle,
+            boxStyle: .underline,
             imageName: "lock.shield",
             titleText: "Enter OTP",
             subtitleText: "Please enter the 6-digit code sent to you",
+            autoSubmitOnFullEntry: false,
+//            expiresIn: 30,
+            onExpire: {
+                print("OTP expired")
+            },
+            onResend: {
+                print("Resend")
+            },
             onSubmit: {
                 print("OTP Submitted: \(otp)")
             }
         )
-        .preferredColorScheme(.light)
     }
 }
 

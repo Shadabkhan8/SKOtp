@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		256CAD0D898FC1A9D9C58344E02880AF /* Pods-OTPView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F681ADEF9286B402C121E8F471776E /* Pods-OTPView-dummy.m */; };
-		2662659191374C37CAE5C6562E4F9E92 /* SKOtp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 134385D3C098CCC5B9BFDD99D8EBEBF2 /* SKOtp-dummy.m */; };
-		28FE3BE2F2B66795A89B8D492F4B38E5 /* SKOtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEDC693B45A190E282DFE87E47551A /* SKOtpView.swift */; };
-		538E09C4F02F57A42CF15DB594B9C8AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
-		5542B28A0F1196E1D7E3F0219E1A2B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		6D8DFEBABD29BC471F0B0B18288E61F9 /* SKOtp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F70B5179800FF51CD54D6B895967AC3 /* SKOtp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EFDE4622878BAD664C17D061A8C24DD /* SKOtp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7920A8841EADB112A9E00DFD28420BDB /* SKOtp-dummy.m */; };
+		569716B498819A734F658B2B40417852 /* BoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C720B9944AFCA47A3094E54856EBFC /* BoxStyle.swift */; };
 		7B4F37707A4249565BE9564E82918458 /* Pods-OTPView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9B8DDE886743F84B8258F52AE72333 /* Pods-OTPView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9870F1232DE85B8800510C36 /* BoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9870F1222DE85B8800510C36 /* BoxStyle.swift */; };
+		7BE1E14DA281E2BECD322CA291780564 /* SKOtp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C6E9CCFF8446A92D351F678524585F /* SKOtp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CC7250BEED57CC445F42F1936DB904D /* SKOtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301E0AF091D73B76E333A7159A6F4DE /* SKOtpView.swift */; };
+		BBDC6FF08F9E24F9C5AC919AE9D66084 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		D3E5DE21F9BD79B434096226F35AECD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
 		EDF9A339C705A0FA9657B06D5D1C7720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ABA14859DF28D6FC338CFFDCB949B954 /* PBXContainerItemProxy */ = {
+		0FAA1A97D5D2821903EDC82F0DCDDB9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,39 +29,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0232D7535FADB7208F41BF4426403C91 /* SKOtp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKOtp.debug.xcconfig; sourceTree = "<group>"; };
-		116BA6C0751AD0781BA7D0159AA5F2A1 /* SKOtp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKOtp.modulemap; sourceTree = "<group>"; };
-		134385D3C098CCC5B9BFDD99D8EBEBF2 /* SKOtp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKOtp-dummy.m"; sourceTree = "<group>"; };
+		0A2DA07A0BFAEA26A822258A694FA200 /* SKOtp.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = SKOtp.podspec.json; sourceTree = "<group>"; };
 		19F3B285EBC7FA58A89CBEF65AA76C60 /* Pods-OTPView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPView-acknowledgements.plist"; sourceTree = "<group>"; };
-		26A440A46AF6E8F55909C9B9354CCD0A /* SKOtp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKOtp-prefix.pch"; sourceTree = "<group>"; };
-		3F70B5179800FF51CD54D6B895967AC3 /* SKOtp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKOtp-umbrella.h"; sourceTree = "<group>"; };
+		4067BF58AB3169E6C51394599F5122FE /* SKOtp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKOtp-Info.plist"; sourceTree = "<group>"; };
 		4FD921F8B20CDD82E9C835F4329FAC55 /* Pods-OTPView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTPView.modulemap"; sourceTree = "<group>"; };
+		5A97C1C24752803AE5EDF95D98D868AF /* SKOtp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKOtp.release.xcconfig; sourceTree = "<group>"; };
 		5E9F1011CFBBCBDCAF08FE3F161CBF42 /* Pods-OTPView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPView.release.xcconfig"; sourceTree = "<group>"; };
 		667EA6C9A0E90472ABF3D42659B9E1D2 /* Pods-OTPView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTPView-frameworks.sh"; sourceTree = "<group>"; };
+		75C720B9944AFCA47A3094E54856EBFC /* BoxStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoxStyle.swift; sourceTree = "<group>"; };
+		7920A8841EADB112A9E00DFD28420BDB /* SKOtp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKOtp-dummy.m"; sourceTree = "<group>"; };
+		7E3FEB82D9265FF8711BD039A27591EF /* SKOtp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKOtp.debug.xcconfig; sourceTree = "<group>"; };
 		7FBA93798AC5FE932E5C1138AAD9E5F5 /* Pods-OTPView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPView.debug.xcconfig"; sourceTree = "<group>"; };
 		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		83C011D87AE1AA1A7D61A3B20D2D1659 /* SKOtp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKOtp-Info.plist"; sourceTree = "<group>"; };
+		821718CBBE26446DD5B14811DC2BEE52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8301E0AF091D73B76E333A7159A6F4DE /* SKOtpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SKOtpView.swift; sourceTree = "<group>"; };
 		8760D6868D42F5BECFEA3CE9314E575C /* Pods_OTPView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTPView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9870F1222DE85B8800510C36 /* BoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxStyle.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2AB148A3051260201A21666D31EED50 /* Pods-OTPView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPView-Info.plist"; sourceTree = "<group>"; };
 		AABD4E2F8FE22C84A8B1467655642C3C /* SKOtp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKOtp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9B8DDE886743F84B8258F52AE72333 /* Pods-OTPView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTPView-umbrella.h"; sourceTree = "<group>"; };
 		B0F681ADEF9286B402C121E8F471776E /* Pods-OTPView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTPView-dummy.m"; sourceTree = "<group>"; };
+		B3C6E9CCFF8446A92D351F678524585F /* SKOtp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKOtp-umbrella.h"; sourceTree = "<group>"; };
 		CEAE017D17098DB225BE1B079BA82E2B /* Pods-OTPView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTPView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D5CC09942259994916A5850CBF2502ED /* SKOtp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKOtp.release.xcconfig; sourceTree = "<group>"; };
+		D2B8230902DC84AE2B9E396991264378 /* SKOtp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKOtp.modulemap; sourceTree = "<group>"; };
 		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EDBEDC693B45A190E282DFE87E47551A /* SKOtpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SKOtpView.swift; sourceTree = "<group>"; };
-		F0D1E7BE13F04281F65293812ADB357A /* SKOtp.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = SKOtp.podspec.json; sourceTree = "<group>"; };
+		EDF69026F717D8AE21CDB60EA924FD98 /* SKOtp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKOtp-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22ACC22B15458410C3C577031CF84C6F /* Frameworks */ = {
+		8BDB1E5A91BA2B910490CF0DA5BD2B14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5542B28A0F1196E1D7E3F0219E1A2B31 /* Foundation.framework in Frameworks */,
-				538E09C4F02F57A42CF15DB594B9C8AE /* UIKit.framework in Frameworks */,
+				D3E5DE21F9BD79B434096226F35AECD5 /* Foundation.framework in Frameworks */,
+				BBDC6FF08F9E24F9C5AC919AE9D66084 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +83,18 @@
 				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		162AE3969CB3BB54B82C6B4025C1DCF7 /* SKOtp */ = {
+			isa = PBXGroup;
+			children = (
+				75C720B9944AFCA47A3094E54856EBFC /* BoxStyle.swift */,
+				8301E0AF091D73B76E333A7159A6F4DE /* SKOtpView.swift */,
+				649E4A0E273A3BE6A70AA1E305BEED98 /* Pod */,
+				9333A3451459947B62F27F639F75B5DE /* Support Files */,
+			);
+			name = SKOtp;
+			path = ../SKOtp;
 			sourceTree = "<group>";
 		};
 		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
@@ -110,39 +123,36 @@
 			path = "Target Support Files/Pods-OTPView";
 			sourceTree = "<group>";
 		};
-		39AB9FB0C4AD6B139CA8DF8DE4454D4A /* Development Pods */ = {
+		41AE558CFAAEBD458EAC141CD1A14D21 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8C93F197F6CEC40A1F6D09FE464077DB /* SKOtp */,
+				162AE3969CB3BB54B82C6B4025C1DCF7 /* SKOtp */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		775DCA573F84D62BB44227A214190B22 /* Support Files */ = {
+		649E4A0E273A3BE6A70AA1E305BEED98 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				116BA6C0751AD0781BA7D0159AA5F2A1 /* SKOtp.modulemap */,
-				134385D3C098CCC5B9BFDD99D8EBEBF2 /* SKOtp-dummy.m */,
-				83C011D87AE1AA1A7D61A3B20D2D1659 /* SKOtp-Info.plist */,
-				26A440A46AF6E8F55909C9B9354CCD0A /* SKOtp-prefix.pch */,
-				3F70B5179800FF51CD54D6B895967AC3 /* SKOtp-umbrella.h */,
-				0232D7535FADB7208F41BF4426403C91 /* SKOtp.debug.xcconfig */,
-				D5CC09942259994916A5850CBF2502ED /* SKOtp.release.xcconfig */,
+				821718CBBE26446DD5B14811DC2BEE52 /* LICENSE */,
+				0A2DA07A0BFAEA26A822258A694FA200 /* SKOtp.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9333A3451459947B62F27F639F75B5DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2B8230902DC84AE2B9E396991264378 /* SKOtp.modulemap */,
+				7920A8841EADB112A9E00DFD28420BDB /* SKOtp-dummy.m */,
+				4067BF58AB3169E6C51394599F5122FE /* SKOtp-Info.plist */,
+				EDF69026F717D8AE21CDB60EA924FD98 /* SKOtp-prefix.pch */,
+				B3C6E9CCFF8446A92D351F678524585F /* SKOtp-umbrella.h */,
+				7E3FEB82D9265FF8711BD039A27591EF /* SKOtp.debug.xcconfig */,
+				5A97C1C24752803AE5EDF95D98D868AF /* SKOtp.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Pods/Target Support Files/SKOtp";
-			sourceTree = "<group>";
-		};
-		8C93F197F6CEC40A1F6D09FE464077DB /* SKOtp */ = {
-			isa = PBXGroup;
-			children = (
-				9870F1222DE85B8800510C36 /* BoxStyle.swift */,
-				EDBEDC693B45A190E282DFE87E47551A /* SKOtpView.swift */,
-				E60C24FE926041842AD9E7812F4C744F /* Pod */,
-				775DCA573F84D62BB44227A214190B22 /* Support Files */,
-			);
-			name = SKOtp;
-			path = ../SKOtp;
 			sourceTree = "<group>";
 		};
 		BA73BCA89AF324826ED0157D796803A9 /* Targets Support Files */ = {
@@ -166,19 +176,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				39AB9FB0C4AD6B139CA8DF8DE4454D4A /* Development Pods */,
+				41AE558CFAAEBD458EAC141CD1A14D21 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				C8C1A37E02EB31DDA7982519BA72622A /* Products */,
 				BA73BCA89AF324826ED0157D796803A9 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		E60C24FE926041842AD9E7812F4C744F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F0D1E7BE13F04281F65293812ADB357A /* SKOtp.podspec.json */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,11 +194,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A321F853EDB9BEF0CF3F24C3BF9783B7 /* Headers */ = {
+		C94616EB18A618B863F4E2D9B3E4B69F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D8DFEBABD29BC471F0B0B18288E61F9 /* SKOtp-umbrella.h in Headers */,
+				7BE1E14DA281E2BECD322CA291780564 /* SKOtp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +217,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E596B401C66422258D2E06F9601C4812 /* PBXTargetDependency */,
+				E1D961E156DD2984FBB8972A88574ACF /* PBXTargetDependency */,
 			);
 			name = "Pods-OTPView";
 			productName = Pods_OTPView;
@@ -224,12 +226,12 @@
 		};
 		B99108459683345D74740B183B3B7534 /* SKOtp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0715916869015335270E82EDE6608FA3 /* Build configuration list for PBXNativeTarget "SKOtp" */;
+			buildConfigurationList = 70EEECBB61B3FA39839083168AA6A96A /* Build configuration list for PBXNativeTarget "SKOtp" */;
 			buildPhases = (
-				A321F853EDB9BEF0CF3F24C3BF9783B7 /* Headers */,
-				822777EC521B2864F27E9E4E7D9FEE8B /* Sources */,
-				22ACC22B15458410C3C577031CF84C6F /* Frameworks */,
-				1A72DF67080511A686DC4C2F746C97B7 /* Resources */,
+				C94616EB18A618B863F4E2D9B3E4B69F /* Headers */,
+				47ECE4DAC856369F5D8A9B36097FF964 /* Sources */,
+				8BDB1E5A91BA2B910490CF0DA5BD2B14 /* Frameworks */,
+				71D2C4E95AF895AB6302756CCD4D8C27 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -269,7 +271,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A72DF67080511A686DC4C2F746C97B7 /* Resources */ = {
+		71D2C4E95AF895AB6302756CCD4D8C27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,13 +288,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		822777EC521B2864F27E9E4E7D9FEE8B /* Sources */ = {
+		47ECE4DAC856369F5D8A9B36097FF964 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2662659191374C37CAE5C6562E4F9E92 /* SKOtp-dummy.m in Sources */,
-				9870F1232DE85B8800510C36 /* BoxStyle.swift in Sources */,
-				28FE3BE2F2B66795A89B8D492F4B38E5 /* SKOtpView.swift in Sources */,
+				569716B498819A734F658B2B40417852 /* BoxStyle.swift in Sources */,
+				3EFDE4622878BAD664C17D061A8C24DD /* SKOtp-dummy.m in Sources */,
+				7CC7250BEED57CC445F42F1936DB904D /* SKOtpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,134 +309,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E596B401C66422258D2E06F9601C4812 /* PBXTargetDependency */ = {
+		E1D961E156DD2984FBB8972A88574ACF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SKOtp;
 			target = B99108459683345D74740B183B3B7534 /* SKOtp */;
-			targetProxy = ABA14859DF28D6FC338CFFDCB949B954 /* PBXContainerItemProxy */;
+			targetProxy = 0FAA1A97D5D2821903EDC82F0DCDDB9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		21C1B8460624F3A09B362F815676FC35 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5CC09942259994916A5850CBF2502ED /* SKOtp.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SKOtp/SKOtp-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SKOtp/SKOtp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SKOtp/SKOtp.modulemap";
-				PRODUCT_MODULE_NAME = SKOtp;
-				PRODUCT_NAME = SKOtp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		557D21E142027962AB80EF56706897B5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FBA93798AC5FE932E5C1138AAD9E5F5 /* Pods-OTPView.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-OTPView/Pods-OTPView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OTPView/Pods-OTPView.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B435961DA5F5B7287C9E652F8F7162E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0232D7535FADB7208F41BF4426403C91 /* SKOtp.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SKOtp/SKOtp-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SKOtp/SKOtp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SKOtp/SKOtp.modulemap";
-				PRODUCT_MODULE_NAME = SKOtp;
-				PRODUCT_NAME = SKOtp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B86D71A5E7AB53EB2C08DEA39FBD2050 /* Release */ = {
+		44A4B2FB6211B90C1949A44A381F6D1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -484,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,7 +380,86 @@
 			};
 			name = Release;
 		};
-		BD5E84F7B72D348654A4D58B6BA51118 /* Debug */ = {
+		7B29C19A406C8839FEDFF06C61117183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3FEB82D9265FF8711BD039A27591EF /* SKOtp.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SKOtp/SKOtp-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SKOtp/SKOtp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKOtp/SKOtp.modulemap";
+				PRODUCT_MODULE_NAME = SKOtp;
+				PRODUCT_NAME = SKOtp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F55807E2DD9F6D9D74FF0D8CB576F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A97C1C24752803AE5EDF95D98D868AF /* SKOtp.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SKOtp/SKOtp-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SKOtp/SKOtp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKOtp/SKOtp.modulemap";
+				PRODUCT_MODULE_NAME = SKOtp;
+				PRODUCT_NAME = SKOtp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0DC1C2C814704734F83EAB35BB20B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -549,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -562,7 +525,7 @@
 			};
 			name = Debug;
 		};
-		DF45DCE5ED58EBDEE57A97CE16F641BF /* Release */ = {
+		B6522ABFE44EEA2A36AB3335D82A288E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E9F1011CFBBCBDCAF08FE3F161CBF42 /* Pods-OTPView.release.xcconfig */;
 			buildSettings = {
@@ -580,7 +543,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-OTPView/Pods-OTPView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,23 +565,53 @@
 			};
 			name = Release;
 		};
+		C874CA0BC10958A0AC1B6A970E694011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FBA93798AC5FE932E5C1138AAD9E5F5 /* Pods-OTPView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OTPView/Pods-OTPView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTPView/Pods-OTPView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0715916869015335270E82EDE6608FA3 /* Build configuration list for PBXNativeTarget "SKOtp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B435961DA5F5B7287C9E652F8F7162E /* Debug */,
-				21C1B8460624F3A09B362F815676FC35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		306EBA1674263A3B26E596320E3E8727 /* Build configuration list for PBXNativeTarget "Pods-OTPView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				557D21E142027962AB80EF56706897B5 /* Debug */,
-				DF45DCE5ED58EBDEE57A97CE16F641BF /* Release */,
+				C874CA0BC10958A0AC1B6A970E694011 /* Debug */,
+				B6522ABFE44EEA2A36AB3335D82A288E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -626,8 +619,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD5E84F7B72D348654A4D58B6BA51118 /* Debug */,
-				B86D71A5E7AB53EB2C08DEA39FBD2050 /* Release */,
+				A0DC1C2C814704734F83EAB35BB20B21 /* Debug */,
+				44A4B2FB6211B90C1949A44A381F6D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EEECBB61B3FA39839083168AA6A96A /* Build configuration list for PBXNativeTarget "SKOtp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B29C19A406C8839FEDFF06C61117183 /* Debug */,
+				7F55807E2DD9F6D9D74FF0D8CB576F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,5 @@
 PODS:
-  - SKOtp (1.0.0)
+  - SKOtp (1.0.2)
 
 DEPENDENCIES:
   - SKOtp (from `SKOtp/.`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: SKOtp/.
 
 SPEC CHECKSUMS:
-  SKOtp: af76493ab243a94ae6b47eed77075b0bb8211795
+  SKOtp: 1f8679e0b944bfc4f034160dd54fc7802746a52c
 
 PODFILE CHECKSUM: 10bc19b9eb6a9ebe3ac4bfab0ebf3dd6704278f7
 
